@@ -1,0 +1,8 @@
+export const GET_REVIEW_INIT = "GET_REVIEW_INIT";
+export const GET_REVIEW_SUCC = "GET_REVIEW_SUCC";
+export const GET_REVIEW_FAIL = "GET_REVIEW_FAIL";
+
+export const ADD_REVIEW_INIT = "ADD_REVIEW_INIT";
+export const ADD_REVIEW_SUCC = "ADD_REVIEW_SUCC";
+export const ADD_REVIEW_FAIL = "ADD_REVIEW_FAIL";
+export const ADD_REVIEW_RESET = "ADD_REVIEW_RESET";

@@ -1,0 +1,184 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.navD {
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-item-next,
+.carousel-item-prex,
+.carousel-item.active {
+  display: flex;
+
+  background-color: #3289a8;
+}
+
+.carousel-caption h1 {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.carousel-caption h3 {
+  font-size: 0.8rem;
+}
+.carousel-caption {
+  position: absolute;
+  top: auto;
+  left: 80px;
+  font-size: 0.5rem;
+
+  /* padding: 10px; */
+  padding-left: 80px;
+  text-align: justify;
+}
+.carousel img {
+  height: 150px;
+  /* width: 100px; */
+  padding: 20px;
+  /* margin: 40px; */
+  /* position: relative;
+  top: 5px;
+  right: 265px; */
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/*Small devices (landscape phones, 544px and up) */
+@media only screen and (min-width: 544px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media only screen and (min-width: 768px) {
+  .carousel-item-next,
+  .carousel-item-prex,
+  .carousel-item.active {
+    display: flex;
+    background-color: #3289a8;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 40px;
+    left: 28rem;
+    padding-left: 0;
+    width: 30%;
+  }
+
+  .carousel-caption h1 {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+
+  .carousel img {
+    height: 250px;
+    /* padding: 30px; */
+    /* padding: 10px; */
+    margin: 40px;
+    position: relative;
+    top: 5px;
+    right: -2rem;
+    border-radius: 70%;
+    width: 50%;
+  }
+
+  .carousel a {
+    margin: 0 auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel-item-next,
+  .carousel-item-prex,
+  .carousel-item.active {
+    display: flex;
+    background-color: #3289a8;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 90px;
+    left: 38rem;
+    padding-left: 0;
+    width: 30%;
+  }
+
+  .carousel-caption h1 {
+    color: #fff;
+    font-size: 2.8rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.7rem;
+  }
+
+  .carousel img {
+    height: 350px;
+    /* padding: 30px; */
+    /* padding: 10px; */
+    margin: 40px;
+    position: relative;
+    top: 5px;
+    right: -1rem;
+    border-radius: 70%;
+    width: 60%;
+  }
+
+  .carousel a {
+    margin: 0 auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-item-next,
+  .carousel-item-prex,
+  .carousel-item.active {
+    display: flex;
+    background-color: #3289a8;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 90px;
+    left: 50rem;
+    padding-left: 0;
+    width: 30%;
+  }
+
+  .carousel-caption h1 {
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 2rem;
+  }
+
+  .carousel img {
+    height: 350px;
+    /* padding: 30px; */
+    /* padding: 10px; */
+    margin: 40px;
+    position: relative;
+    top: 5px;
+    right: 2rem;
+    border-radius: 70%;
+    width: 60%;
+  }
+
+  .carousel a {
+    margin: 0 auto;
+  }
+}

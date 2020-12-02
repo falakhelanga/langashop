@@ -1,0 +1,2 @@
+export const PAYMENT_METHOD = "PAYMENT_METHOD";
+export const PAYMENT_RESET = "PAYMENT_RESET";

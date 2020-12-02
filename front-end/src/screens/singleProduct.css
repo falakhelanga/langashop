@@ -1,0 +1,29 @@
+.singleContainer {
+  position: relative;
+  font-size: 1rem;
+}
+
+/*Small devices (landscape phones, 544px and up) */
+@media only screen and (min-width: 544px) {
+  /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media only screen and (min-width: 768px) {
+  /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .singleContainer {
+    font-size: 1rem;
+  }
+  /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .singleContainer {
+    font-size: 1rem;
+  } /*1rem = 16px*/
+}

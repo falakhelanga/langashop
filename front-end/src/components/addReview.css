@@ -1,0 +1,15 @@
+.butt {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.863);
+  opacity: 0.8;
+  border: 1px solid black;
+  outline-style: none;
+  width: 170px;
+  font-weight: bold;
+}
+
+.butt:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
